@@ -1,0 +1,35 @@
+.header_1{
+    width: 100%;
+}
+.per{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.header_1 img{
+    padding:2em 0em 0em 0em;
+    width:20%;
+}
+.header_2{
+    padding: 0em 0em 3em 1em;
+    width:100%;
+    text-align: center
+}
+.header_3{
+    width:100%;
+    justify-content: center;
+}
+.left{
+    width:100%;
+    margin:2em 2em 0em 2em;
+    line-height: 1.5em;
+}
+.right{
+    width:100%;
+    margin:-2.5em 2em 2em 2em;
+    line-height: 1.5em
+}
+footer{
+    font-size: 0.9em;
+}

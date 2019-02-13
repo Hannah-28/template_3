@@ -18,9 +18,11 @@ body{
     display: flex;
     flex-wrap: wrap
 }
+.per{
+    width:30%
+}
 .header_1 img{
     padding:2em 3em;
-    width:15%
 }
 .header_2{
     padding: 4em 0em 4em 1em;

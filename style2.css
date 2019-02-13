@@ -1,0 +1,183 @@
+.header_1{
+    width: 100%;
+}
+.per{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.header_1 img{
+    padding:2em 0em 0em 0em;
+    width:50%;
+}
+.header_2{
+    padding: 0em 0em 3em 1em;
+    width:100%;
+    text-align: center
+}
+.header_2 h1{
+    font-size: 2em;
+}
+.header_2 h3{
+    font-size: 1.3em;
+    line-height: 1em;
+}
+.header_3{
+    width:100%;
+    justify-content: center;
+}
+.header_3 input{
+    padding: 0.6em 0.5em;
+    font-size: 0.8em;
+}
+.left{
+    width:100%;
+    margin:2em 0.5em 0em 0.5em;
+    line-height: 1.4em;
+}
+.left_1, .left_2{
+    padding: 1.2em 0.5em
+}
+.left_1 h4, .head_1 {
+    font-size: 1.1em;
+}
+.left_1 p, .p_2{
+    font-size: 0.8em;
+}
+.p_1 {
+    font-size: 0.9em;
+}
+.btn input, .btn_2 input, .btn_3 input, .btn_4 input{
+    padding: 0.5em 0.5em;
+    font-size: 0.7em;
+}
+.left_3,.left_4,.left_5,.left_6,.left_7{
+    padding:1.5em 0.5em
+}
+.card_1{
+    width:100%
+}
+.card_1 img{
+    width: 100%;
+    height: 100%
+}
+.card_2{
+    margin:2em 0em 0em 0em;
+    width:100%
+}
+.card_2 h3{
+    font-size: 0.9em;
+}
+.card_2 p, .card_3 p, .card_4 p, .left_10 p{
+    font-size: 0.8em;
+    margin:1.1em 0em 0.5em em
+}
+.left_8, .left_9, .left_10{
+    padding: 1.2em 0.5em
+}
+.left_8 h4, .left_9 h4, .left_10 h4{
+    font-size: 1.1em;
+}
+.card_3 h3,.card_4 h3{
+    font-size: 0.9em;
+}
+.left_10{
+    height: 60vh;
+}
+.right{
+    width:100%;
+    margin:-2.5em 0.5em 2em 0.5em;
+    line-height: 1.4em
+}
+.right_1{
+    padding: 0.5em
+}
+.right_1 h6{
+    font-size: 1em;
+}
+.right_1 p{
+    font-size: 0.9em;
+}
+.right_2{
+    padding: 0.5em;
+}
+.right_2 h4{
+    font-size: 1.1em;
+}
+.right_2 p{
+    font-size: 0.8em;
+}
+.card_5 ul li{
+    font-size: 0.9em;
+}
+.right_3, .right_4, .right_5, .right_6, .right_7, .right_8, .right_9{
+    padding: 0.5em;
+}
+.right_3 h4, .right_4 h4, .right_5 h4, .right_6 h4, .right_7 h4, .right_8 h4, .right_9 h4, .right_11 h4{
+    font-size: 1.1em;
+}
+.card_6 p {
+    margin-top:1.3em;
+    border-left: 5px solid #54ba4e;
+    font-size: 0.8em;
+    padding: 0.8em
+}
+.card_6 h3{
+    font-size: 0.9em;
+}
+.card_6 h5{
+    font-size: 0.9em;
+}
+.card_7 h3{
+    font-size: 0.9em;
+}
+.card_7 h5{
+    font-size: 0.9em
+}
+.card_7 span{
+    font-size: 0.9em;
+}
+.right_5 h3{
+    font-size: 0.9em
+}
+.right_5 span{
+    font-size: 0.9em
+}
+.right_6 p{
+    font-size: 0.8em;
+}
+.right_7 p{
+    font-size: 0.8em;
+}
+.right_8 h3{
+    font-size: 0.9em;
+}
+.right_9 ul{
+    font-size: 0.9em;
+    margin:1em 0em;
+}
+.right_9 li{
+    padding-bottom: 0.8em
+}
+.right_9 hr, .right_10 hr{
+    margin:2em 0em
+}
+.right_10, .right_11{
+    padding: 0em 0.5em 1.2em 0.5em;
+}
+.right_10 p, .right_11 p{
+    font-size: 0.8em;
+    padding:0.5em 0em
+}
+.black{
+    font-size: 1em;
+}
+
+.btn_3 input{
+    background: #54ba4e;
+    border:1px solid #54ba4e;
+}
+footer{
+    font-size: 0.8em;
+}
