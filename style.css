@@ -19,26 +19,29 @@ body{
     flex-wrap: wrap
 }
 .header_1 img{
-    padding:2em 5em;
+    padding:2em 3em;
+    width:15%
 }
 .header_2{
-    padding: 4em 0em 4em 1em
+    padding: 4em 0em 4em 1em;
+    width:50%
 }
 .header_2 h1{
-    font-size: 3em;
+    font-size: 2.5em;
     text-transform: capitalize;
     color:rgb(50, 50, 50);
-    font-family: Arial
+    font-family: Arial;
+    margin-top:0.8em
 }
 .header_2 h3{
-    font-size: 1.8em;
+    font-size: 1.6em;
     line-height: 1.2em;
     text-transform: capitalize;
     color: #919191;
     font-family: Arial
 }
 .header_3{
-    width:60%;
+    width:15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -53,9 +56,14 @@ body{
     font-size: 1.1em;
     border-radius: 3px
 }
+.header_3 input:hover{
+    background: rgb(50, 128, 50);
+    border:1px solid rgb(50, 128, 50);
+    cursor: pointer;
+}
 .container{
     height: 100%;
-    background: red;
+    background: #d7e0e7;
     display:flex;
     flex-wrap: wrap
 }
@@ -94,6 +102,12 @@ body{
     color: #515151;
     font-family: Arial, Helvetica, sans-serif
 }
+.head_2:hover{
+    text-decoration: underline;
+    text-decoration-color: #313131;
+    color:#313131;
+    cursor: pointer;
+}
 .p_1{
     text-align: center;
     font-size: 1em;
@@ -121,6 +135,11 @@ body{
     font-size: 0.9em;
     border-radius: 3px
 }
+.btn input:hover, .btn_2 input:hover, .btn_3 input:hover, .btn_4 input:hover{
+    background: #6666ba;
+    border:1px solid #6666ba;
+    cursor: pointer;
+}
 .left_3,.left_4,.left_5,.left_6,.left_7{
     background: white;
     display: flex;
@@ -143,6 +162,12 @@ body{
     color: #515151;
     font-family: Arial, Helvetica, sans-serif
 }
+.card_2 h3:hover, .card_3 h3:hover{
+    text-decoration: underline;
+    text-decoration-color: #313131;
+    color:#313131;
+    cursor: pointer;
+}
 .card_2 p, .card_3 p, .card_4 p, .left_10 p{
     font-size: 1em;
     color: rgb(100, 100, 100);
@@ -154,6 +179,12 @@ body{
     text-decoration: none;
     font-size: 1em;
     color: #54ba4e
+}
+.card_2 a:hover, .card_3 a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
 }
 .left_8, .left_9, .left_10{
     margin-top:2em;
@@ -190,6 +221,12 @@ body{
 .left_10 span{
     color:#54ba4e
 }
+.left_10 span:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
+}
 .right{
     width:30%;
     margin:2em 1em 0.5em 1em;
@@ -200,15 +237,21 @@ body{
     padding: 1em
 }
 .right_1 h6{
-    font-size: 0.8em;
+    font-size: 1.1em;
     color: #515151;
     font-family: Arial, Helvetica, sans-serif
 }
 .right_1 p{
     margin:0.8em 0em;
-    font-size: 0.8em;
+    font-size: 1.1em;
     color: #54ba4e;
     font-family: Arial, Helvetica, sans-serif
+}
+.right_1 p:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
 }
 .right_2{
     background: white;
@@ -252,6 +295,12 @@ progress{
     color: #54ba4e;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+}
+.right_2 a:hover, .right_3 a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
 }
 .right_3, .right_4, .right_5, .right_6, .right_7, .right_8, .right_9{
     background: white;
@@ -332,6 +381,12 @@ progress{
 .right_6 span{
     color: #54ba4e
 }
+.right_6 span:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
+}
 .right_7 p{
     color: #919191;
     font-weight: 100;
@@ -346,6 +401,12 @@ progress{
     font-family: Arial, Helvetica, sans-serif;
     margin:0.5em 0em
 }
+.right_8 h3:hover{
+    text-decoration: underline;
+    text-decoration-color: #313131;
+    color:#313131;
+    cursor: pointer;
+}
 .right_8 span{
     color: rgb(100, 100, 100);
     font-weight: 500
@@ -357,6 +418,12 @@ progress{
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     margin:0.5em 0em
+}
+.right_9 li:hover{
+    text-decoration: underline;
+    text-decoration-color: #313131;
+    color:#313131;
+    cursor: pointer;
 }
 .right_9 span{
     color:rgb(100, 100, 100)
@@ -377,6 +444,12 @@ progress{
 .green{
     color:#54ba4e
 }
+.green:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(50, 128, 50);
+    color:rgb(50, 128, 50);
+    cursor: pointer;
+}
 .black{
     font-weight: bold;
     font-size: 1.1em;
@@ -387,9 +460,18 @@ progress{
     color:#919191;
     border-bottom: 1px dotted #919191;
 }
+.grey:hover{
+    color:#313131;
+    border-bottom: 1px dotted #313131;
+    cursor: pointer;
+}
 .btn_3 input{
     background: #54ba4e;
     border:1px solid #54ba4e;
+}
+.btn_3 input:hover{
+    background: rgb(50, 128, 50);
+    border:1px solid rgb(50, 128, 50);
 }
 footer{
     background: rgb(70, 70, 70);
